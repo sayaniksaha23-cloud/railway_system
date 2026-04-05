@@ -1,4 +1,4 @@
-# fare.py
+# fare.py to calculate final amount 
 
 from core.constants import TRAIN_TYPES, CLASSES
 

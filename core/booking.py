@@ -1,5 +1,5 @@
-# booking.py
-
+# booking.py for dealing with taking input and creating booking summary
+# the imports 
 from core.routes import get_distance, get_all_cities, is_valid_route
 from core.constants import TRAIN_TYPES, CLASSES
 from core.passenger import collect_passengers
@@ -9,9 +9,6 @@ from core.utils import get_valid_choice, get_non_empty_string
 
 
 def select_route():
-    """
-    Handles route selection
-    """
     cities = get_all_cities()
 
     print("\nAvailable Cities:")
@@ -30,9 +27,7 @@ def select_route():
 
 
 def select_train_type():
-    """
-    Displays train menu and returns choice
-    """
+    
     print("\nSelect Train Type:")
     for key, value in TRAIN_TYPES.items():
         print(f"{key}. {value['name']}")
@@ -42,9 +37,7 @@ def select_train_type():
 
 
 def select_class():
-    """
-    Displays class menu and returns choice
-    """
+   
     print("\nSelect Travel Class:")
     for key, value in CLASSES.items():
         print(f"{key}. {value['name']}")
@@ -54,10 +47,6 @@ def select_class():
 
 
 def create_booking():
-    """
-    Main booking workflow
-    """
-
     print("\n===== Railway Ticket Booking =====")
 
     # Step 1: Route selection

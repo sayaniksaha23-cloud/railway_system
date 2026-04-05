@@ -1,6 +1,6 @@
-# constants.py
+# constants.py to store the constants that have been used throughout the prograam
 
-# Train Types Configuration
+# I wrote with spaces cuz Imma writing code in split screens
 TRAIN_TYPES = {
     1: {
         "name": "Superfast",
@@ -21,9 +21,6 @@ TRAIN_TYPES = {
         "surcharge": 0
     }
 }
-
-
-# Travel Classes Configuration
 CLASSES = {
     1: {
         "name": "Sleeper",
@@ -41,9 +38,6 @@ CLASSES = {
         "baggage": 40
     }
 }
-
-
-# Promo Codes
 PROMO_CODES = {
     "ADG20": {
         "type": "percentage",
