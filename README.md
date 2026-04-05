@@ -14,7 +14,7 @@ The system allows users to:
 ---
 
 ## 🧱 Project Structure
-<pre>"""
+
 railway_system/
 │
 ├── core/
