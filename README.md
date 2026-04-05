@@ -30,28 +30,29 @@ railway_system/
 │
 ├── pyproject.toml  
 ├── README.md
-"""</pre>
+---
+
 ## 🚀 How to Run
 
 ### 1. Create virtual environment
-
+```bash
 python -m venv venv
-
+```
 
 ### 2. Activate environment
-
+```bash
 venv\Scripts\activate
-
+```
 
 ### 3. Install in development mode
-
+```bash
 pip install -e .
-
+```
 
 ### 4. Run the CLI tool
-
+```bash
 railway
-
+```
 ---
 
 ## 🧠 Features
