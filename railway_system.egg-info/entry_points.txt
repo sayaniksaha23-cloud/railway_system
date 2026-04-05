@@ -1,0 +1,2 @@
+[console_scripts]
+railway = core.main:main

@@ -1,0 +1,9 @@
+[project]
+name = "railway-system"
+version = "0.1.0"
+description = "CLI Railway Ticket Booking System"
+authors = [{name = "Your Name"}]
+dependencies = []
+
+[project.scripts]
+railway = "core.main:main"
