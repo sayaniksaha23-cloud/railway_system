@@ -14,7 +14,7 @@ The system allows users to:
 ---
 
 ## 🧱 Project Structure
-
+```bash
 railway_system/
 │
 ├── core/
@@ -31,7 +31,7 @@ railway_system/
 ├── pyproject.toml  
 ├── README.md
 ---
-
+```
 ## 🚀 How to Run
 
 ### 1. Create virtual environment
