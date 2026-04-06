@@ -12,7 +12,7 @@ def display_summary(summary):
       if val["name"] == summary["train"]:
         speed = val["speed"]
 
-      if speed:
+    if speed:
        time = summary["distance"] / speed
        print(f"Estimated Travel Time: {round(time, 2)} hours")
     
